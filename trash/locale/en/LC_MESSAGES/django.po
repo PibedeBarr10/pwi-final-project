@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-25 00:55+0200\n"
+"POT-Creation-Date: 2020-05-25 01:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -92,7 +92,7 @@ msgid "Metale i tworzywa sztuczne"
 msgstr "Metals and plastics"
 
 #: .\trash\templates\home.html:59 .\trash\templates\home.html:93
-#: .\trash\templates\home.html:124
+#: .\trash\templates\home.html:124 .\trash\templates\home.html:152
 msgid "Należy wyrzucać:"
 msgstr "You should throw it away:"
 
@@ -250,9 +250,7 @@ msgstr "clothes"
 msgid ""
 "butelki i słoiki po napojach i żywności (w tym butelki po napojach "
 "alkoholowych i olejach roślinnych)"
-msgstr ""
-"butelki i słoiki po napojach i żywności (w tym butelki po napojach "
-"alkoholowych i olejach roślinnych)"
+msgstr "beverage and food bottles and jars (including bottles of alcoholic beverages and vegetable oils)"
 
 #: .\trash\templates\home.html:126
 msgid ""
@@ -266,7 +264,7 @@ msgstr "pottery, pottery, porcelain, faience, crystals"
 
 #: .\trash\templates\home.html:131
 msgid "szkła okularowego"
-msgstr "szkła okularowego"
+msgstr "spectacle glasses"
 
 #: .\trash\templates\home.html:132
 msgid "szkła żaroodpornego"
