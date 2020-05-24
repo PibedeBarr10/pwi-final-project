@@ -1,0 +1,202 @@
+{% load static %}
+{% load i18n %}
+<!DOCTYPE html>
+<html lang="pl-PL">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <link rel="stylesheet" type="text/css" href="{% static 'main.css' %}">
+
+        <style>@import url('https://fonts.googleapis.com/css2?family=Muli:wght@300;900&display=swap');</style>
+
+        <title>Programowanie w Internecie</title>
+        
+    </head>
+    <body>
+        <header>
+            <div class="topnav" id="myTopnav">
+                <a href="#">{% trans "Segregacja śmieci" %}</a>
+                <a href="#opis">{% trans "Informacje" %}</a>
+                <a href="#metals">{% trans "Metale i tworzywa" %}</a>
+                <a href="#paper">{% trans "Papier" %}</a>
+                <a href="#glass">{% trans "Szkło" %}</a>
+                <a href="#bio">{% trans "Odpady BIO" %}</a>
+                <a href="#mix">{% trans "Odpady zmieszane" %}</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <img src="/static/icon.png" alt="Menu">
+                </a>
+            </div>
+        </header>
+
+        <main>
+            <div class="container">
+                <div class="heading">
+                    <img src="/static/img/eco-glasses.png" alt="Eco Glasses">
+                </div>
+                <div class="heading">
+                    <h1>{% trans "Segregacja śmieci" %}</h1>
+                    <p>{% trans "Ratuj Ziemię" %}</p>
+                </div>
+            </div>
+
+            <section id="opis">
+                <h2>{% trans "Informacje" %}</h2>
+                <p>{% trans "Główna zasada Jednolitego Systemu Segregacji Odpadów (JSSO) jest jedna – należy oddzielać surowce od odpadów, które nie nadają się do powtórnego przetworzenia." %}</p>
+
+                <p>{% trans "Zbieranie osobno papieru, szkła, tworzyw sztucznych wraz z metalem, a także oddzielanie odpadów biodegradowalnych pozwala uzyskać najbardziej pełnowartościowe surowce do ponownego przetworzenia." %}</p>
+
+                <p>{% trans "Przy segregacji bezwzględnie trzeba pamiętać o odpadach niebezpiecznych, do których zaliczają się zużyte baterie i akumulatory, przeterminowane lekarstwa, zużyte świetlówki, odpady po żrących chemikaliach (np. środkach ochrony roślin), a także zużyty sprzęt RTV i AGD (tzw. elektroodpady). Tych odpadów nie wolno wyrzucać do śmieci zmieszanych. Można je oddać w specjalnie wyznaczonych punktach w sklepach i aptekach, a także w punkcie selektywnej zbiórki odpadów komunalnych." %}</p>
+            </section>
+
+            <section id="metals">
+                <div class="block">
+                    <img src="/static/img/plastic.png" alt="Plastic">
+                    <h2>{% trans "Metale i tworzywa sztuczne" %}</h2>
+                </div>
+                <div class="table">
+                    <div class="cell">
+                        <h3>{% trans "Należy wyrzucać:" %}</h3>
+                        <li>{% trans "odkręcone i zgniecione plastikowe butelki po napojach" %}</li>
+                        <li>{% trans "nakrętki, o ile nie zbieramy ich osobno w ramach akcji dobroczynnych" %}</li>
+                        <li>{% trans "plastikowe opakowania po produktach spożywczych" %}</li>
+                        <li>{% trans "opakowania wielomateriałowe (np. kartony po mleku i sokach)" %}</li>
+                        <li>{% trans "opakowania po środkach czystości (np. proszkach do prania), kosmetykach (np. szamponach, paście do zębów) itp." %}</li>
+                        <li>{% trans "plastikowe torby, worki, reklamówki, inne folie" %}</li>
+                        <li>{% trans "aluminiowe puszki po napojach i sokach" %}</li>
+                        <li>{% trans "puszki po konserwach" %}</li>
+                        <li>{% trans "folię aluminiową" %}</li>
+                        <li>{% trans "metale kolorowe" %}</li>
+                        <li>{% trans "kapsle, zakrętki od słoików" %}</li>
+                    </div>
+                    <div class="cell">
+                        <h3>{% trans "Nie należy wyrzucać:" %}</h3>
+                        <li>{% trans "butelek i pojemników z zawartością" %}</li>
+                        <li>{% trans "plastikowych zabawek" %}</li>
+                        <li>{% trans "opakowań po lekach i zużytych artykułów medycznych" %}</li>
+                        <li>{% trans "opakowań po olejach silnikowych" %}</li>
+                        <li>{% trans "części samochodowych" %}</li>
+                        <li>{% trans "zużytych baterii i akumulatorów" %}</li>
+                        <li>{% trans "puszek i pojemników po farbach i lakierach" %}</li>
+                        <li>{% trans "zużytego sprzętu elektronicznego i AGD" %}</li>
+                    </div>
+                </div>
+            </section>
+
+            <section id="paper">
+                <div class="block">
+                    <img src="/static/img/paper.png" alt="Paper">
+                    <h2>{% trans "Papier" %}</h2>
+                </div>
+                <div class="table">
+                    <div class="cell">
+                        <h3>{% trans "Należy wyrzucać:" %}</h3>
+                        <li>{% trans "opakowania z papieru, karton, tekturę (także falistą)" %}</li>
+                        <li>{% trans "katalogi, ulotki, prospekty" %}</li>
+                        <li>{% trans "gazety i czasopisma" %}</li>
+                        <li>{% trans "papier szkolny i biurowy, zadrukowane kartki" %}</li>
+                        <li>{% trans "zeszyty i książki" %}</li>
+                        <li>{% trans "papier pakowy" %}</li>
+                        <li>{% trans "torby i worki papierowe" %}</li>
+                    </div>
+                    <div class="cell">
+                        <h3>{% trans "Nie należy wyrzucać:" %}</h3>
+                        <li>{% trans "ręczników papierowych i zużytych chusteczek higienicznych" %}</li>
+                        <li>{% trans "papieru lakierowanego i powleczonego folią" %}</li>
+                        <li>{% trans "papieru zatłuszczonego lub mocno zabrudzonego" %}</li>
+                        <li>{% trans "kartonów po mleku i napojach" %}</li>
+                        <li>{% trans "papierowych worków po nawozach, cemencie i innych materiałach budowlanych" %}</li>
+                        <li>{% trans "tapet" %}</li>
+                        <li>{% trans "pieluch jednorazowych i innych materiałów higienicznych" %}</li>
+                        <li>{% trans "zatłuszczonych jednorazowych opakowań z papieru i naczyń jednorazowych" %}</li>
+                        <li>{% trans "ubrań" %}</li>
+                    </div>
+                </div>
+            </section>
+
+            <section id="glass">
+                <div class="block">
+                    <img src="/static/img/glass-bottle.png" alt="Glass bottle">
+                    <h2>{% trans "Szkło" %}</h2>
+                </div>
+                <div class="table">
+                    <div class="cell">
+                        <h3>{% trans "Należy wyrzucać:" %}</h3>
+                        <li>{% trans "butelki i słoiki po napojach i żywności (w tym butelki po napojach alkoholowych i olejach roślinnych)" %}</li>
+                        <li>{% trans "szklane opakowania po kosmetykach (jeżeli nie są wykonane z trwale połączonych kilku surowców)" %}</li>
+                    </div>
+                    <div class="cell">
+                        <h3>{% trans "Nie należy wyrzucać:" %}</h3>
+                        <li>{% trans "ceramiki, doniczek, porcelany, fajansu, kryształów" %}</li>
+                        <li>{% trans "szkła okularowego" %}</li>
+                        <li>{% trans "szkła żaroodpornego" %}</li>
+                        <li>{% trans "zniczy z zawartością wosku" %}</li>
+                        <li>{% trans "żarówek i świetlówek" %}</li>
+                        <li>{% trans "reflektorów" %}</li>
+                        <li>{% trans "opakowań po lekach, rozpuszczalnikach, olejach silnikowych" %}</li>
+                        <li>{% trans "luster" %}</li>
+                        <li>{% trans "szyb okiennych i zbrojonych" %}</li>
+                        <li>{% trans "monitorów i lamp telewizyjnych" %}</li>
+                        <li>{% trans "termometrów i strzykawek" %}</li>
+                    </div>
+                </div>
+            </section>
+
+            <section id="bio">
+                <div class="block">
+                    <img src="/static/img/biodegradable.png" alt="Biodegradable waste">
+                    <h2>{% trans "Odpady biodegradowalne" %}</h2>
+                </div>
+                <div class="table">
+                    <div class="cell">
+                        <h3>{% trans "Należy wyrzucać:</h3>
+                        <li>{% trans "odpadki warzywne i owocowe (w tym obierki itp.)" %}</li>
+                        <li>{% trans "gałęzie drzew i krzewów" %}</li>
+                        <li>{% trans "skoszoną trawę, liście, kwiaty" %}</li>
+                        <li>{% trans "trociny i korę drzew" %}</li>
+                        <li>{% trans "niezaimpregnowane drewno" %}</li>
+                        <li>{% trans "resztki jedzenia" %}</li>
+                    </div>
+                    <div class="cell">
+                        <h3>{% trans "Nie należy wyrzucać:" %}</h3>
+                        <li>{% trans "kości zwierząt" %}</li>
+                        <li>{% trans "oleju jadalnego" %}</li>
+                        <li>{% trans "odchodów zwierząt" %}</li>
+                        <li>{% trans "popiołu z węgla kamiennego" %}</li>
+                        <li>{% trans "leków" %}</li>
+                        <li>{% trans "drewna impregnowanego" %}</li>
+                        <li>{% trans "płyt wiórowych i pilśniowych MDF" %}</li>
+                        <li>{% trans "ziemi i kamieni" %}</li>
+                        <li>{% trans "innych odpadów komunalnych (w tym niebezpiecznych)" %}</li>
+                    </div>
+                </div>
+            </section>
+
+            <section id="mix">
+                <div class="block" style="padding-bottom: 0em;">
+                    <img src="/static/img/waste.png" alt="Waste">
+                    <h2>{% trans "Odpady zmieszane" %}</h2>
+                </div>
+                <p style="padding: 2em; text-align: center;">{% trans "Do pojemnika z odpadami zmieszanymi należy wrzucać wszystko to, czego nie można odzyskać w procesie recyklingu, z wyłączeniem odpadów niebezpiecznych." %}</p>
+            </section>
+
+
+
+            <footer>
+                <p>Piotr Wojtasiewicz 2020</p>
+                {% trans "Ikony wykonane przez" %} <a href="https://www.flaticon.com/authors/ultimatearm" title="ultimatearm">ultimatearm</a> {% trans "z" %} <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+            </footer>
+        </main>
+
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+        </script>
+    </body>
+</html>

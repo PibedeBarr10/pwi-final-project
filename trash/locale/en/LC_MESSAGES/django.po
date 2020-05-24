@@ -1,0 +1,385 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-25 00:55+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\trash\templates\home.html:19 .\trash\templates\home.html:38
+msgid "Segregacja śmieci"
+msgstr "Waste segregation"
+
+#: .\trash\templates\home.html:20 .\trash\templates\home.html:44
+msgid "Informacje"
+msgstr "Information"
+
+#: .\trash\templates\home.html:21
+msgid "Metale i tworzywa"
+msgstr "Metals and plastics"
+
+#: .\trash\templates\home.html:22 .\trash\templates\home.html:89
+msgid "Papier"
+msgstr "Paper"
+
+#: .\trash\templates\home.html:23 .\trash\templates\home.html:120
+msgid "Szkło"
+msgstr "Glass"
+
+#: .\trash\templates\home.html:24
+msgid "Odpady BIO"
+msgstr "Biodegradable waste"
+
+#: .\trash\templates\home.html:25 .\trash\templates\home.html:178
+msgid "Odpady zmieszane"
+msgstr "Confused waste"
+
+#: .\trash\templates\home.html:39
+msgid "Ratuj Ziemię"
+msgstr "Save the world"
+
+#: .\trash\templates\home.html:45
+msgid ""
+"Główna zasada Jednolitego Systemu Segregacji Odpadów (JSSO) jest jedna – "
+"należy oddzielać surowce od odpadów, które nie nadają się do powtórnego "
+"przetworzenia."
+msgstr ""
+"The main principle of the Uniform System of Waste Segregation (JSSO) is one "
+"- separate raw materials from waste that is not recyclable."
+
+#: .\trash\templates\home.html:47
+msgid ""
+"Zbieranie osobno papieru, szkła, tworzyw sztucznych wraz z metalem, a także "
+"oddzielanie odpadów biodegradowalnych pozwala uzyskać najbardziej "
+"pełnowartościowe surowce do ponownego przetworzenia."
+msgstr ""
+"Separate collection of paper, glass, plastics and metal, as well as "
+"separation of biodegradable waste allows to obtain the most valuable raw "
+"materials for recycling."
+
+#: .\trash\templates\home.html:49
+msgid ""
+"Przy segregacji bezwzględnie trzeba pamiętać o odpadach niebezpiecznych, do "
+"których zaliczają się zużyte baterie i akumulatory, przeterminowane "
+"lekarstwa, zużyte świetlówki, odpady po żrących chemikaliach (np. środkach "
+"ochrony roślin), a także zużyty sprzęt RTV i AGD (tzw. elektroodpady). Tych "
+"odpadów nie wolno wyrzucać do śmieci zmieszanych. Można je oddać w "
+"specjalnie wyznaczonych punktach w sklepach i aptekach, a także w punkcie "
+"selektywnej zbiórki odpadów komunalnych."
+msgstr ""
+"In segregation, it is absolutely necessary to remember about hazardous "
+"waste, which includes used batteries and accumulators, outdated medicines, "
+"used fluorescent lamps, waste from corrosive chemicals (e.g. plant "
+"protection products), as well as used household appliances (so-called "
+"electro-waste). This waste must not be disposed of in mixed waste. It may be "
+"disposed of in specially designated points in shops and pharmacies, as well "
+"as in a selective municipal waste collection point."
+
+#: .\trash\templates\home.html:55
+msgid "Metale i tworzywa sztuczne"
+msgstr "Metals and plastics"
+
+#: .\trash\templates\home.html:59 .\trash\templates\home.html:93
+#: .\trash\templates\home.html:124
+msgid "Należy wyrzucać:"
+msgstr "You should throw it away:"
+
+#: .\trash\templates\home.html:60
+msgid "odkręcone i zgniecione plastikowe butelki po napojach"
+msgstr "unscrewed and crushed plastic beverage bottles"
+
+#: .\trash\templates\home.html:61
+msgid "nakrętki, o ile nie zbieramy ich osobno w ramach akcji dobroczynnych"
+msgstr "nuts, unless we collect them separately as charities"
+
+#: .\trash\templates\home.html:62
+msgid "plastikowe opakowania po produktach spożywczych"
+msgstr "plastic food packaging"
+
+#: .\trash\templates\home.html:63
+msgid "opakowania wielomateriałowe (np. kartony po mleku i sokach)"
+msgstr "multi-material packaging (e.g. milk and juice cartons)"
+
+#: .\trash\templates\home.html:64
+msgid ""
+"opakowania po środkach czystości (np. proszkach do prania), kosmetykach (np. "
+"szamponach, paście do zębów) itp."
+msgstr ""
+"packaging for cleaning products (e.g. washing powder), cosmetics (e.g. "
+"shampoos, toothpaste, etc."
+
+#: .\trash\templates\home.html:65
+msgid "plastikowe torby, worki, reklamówki, inne folie"
+msgstr "plastic bags, sacks, commercials, other foils"
+
+#: .\trash\templates\home.html:66
+msgid "aluminiowe puszki po napojach i sokach"
+msgstr "aluminum beverage and juice cans"
+
+#: .\trash\templates\home.html:67
+msgid "puszki po konserwach"
+msgstr "tin cans"
+
+#: .\trash\templates\home.html:68
+msgid "folię aluminiową"
+msgstr "aluminium foil"
+
+#: .\trash\templates\home.html:69
+msgid "metale kolorowe"
+msgstr "colored metals"
+
+#: .\trash\templates\home.html:70
+msgid "kapsle, zakrętki od słoików"
+msgstr "caps from jars"
+
+#: .\trash\templates\home.html:73 .\trash\templates\home.html:103
+#: .\trash\templates\home.html:129 .\trash\templates\home.html:161
+msgid "Nie należy wyrzucać:"
+msgstr "Do not throw it away:"
+
+#: .\trash\templates\home.html:74
+msgid "butelek i pojemników z zawartością"
+msgstr "bottles and containers with contents"
+
+#: .\trash\templates\home.html:75
+msgid "plastikowych zabawek"
+msgstr "plastic toys"
+
+#: .\trash\templates\home.html:76
+msgid "opakowań po lekach i zużytych artykułów medycznych"
+msgstr "packaging of medicines and used medical supplies"
+
+#: .\trash\templates\home.html:77
+msgid "opakowań po olejach silnikowych"
+msgstr "motor oil packages"
+
+#: .\trash\templates\home.html:78
+msgid "części samochodowych"
+msgstr "car parts"
+
+#: .\trash\templates\home.html:79
+msgid "zużytych baterii i akumulatorów"
+msgstr "waste batteries and accumulators"
+
+#: .\trash\templates\home.html:80
+msgid "puszek i pojemników po farbach i lakierach"
+msgstr "paint cans and containers"
+
+#: .\trash\templates\home.html:81
+msgid "zużytego sprzętu elektronicznego i AGD"
+msgstr "waste electronic and household appliances"
+
+#: .\trash\templates\home.html:94
+msgid "opakowania z papieru, karton, tekturę (także falistą)"
+msgstr "paper, cardboard, cardboard (including corrugated cardboard)"
+
+#: .\trash\templates\home.html:95
+msgid "katalogi, ulotki, prospekty"
+msgstr "catalogues, leaflets, brochures"
+
+#: .\trash\templates\home.html:96
+msgid "gazety i czasopisma"
+msgstr "newspapers and magazines"
+
+#: .\trash\templates\home.html:97
+msgid "papier szkolny i biurowy, zadrukowane kartki"
+msgstr "school and office paper, printed sheets"
+
+#: .\trash\templates\home.html:98
+msgid "zeszyty i książki"
+msgstr "notebooks and books"
+
+#: .\trash\templates\home.html:99
+msgid "papier pakowy"
+msgstr "wrapping paper"
+
+#: .\trash\templates\home.html:100
+msgid "torby i worki papierowe"
+msgstr "handbags and sacks"
+
+#: .\trash\templates\home.html:104
+msgid "ręczników papierowych i zużytych chusteczek higienicznych"
+msgstr "paper towels and used handkerchiefs"
+
+#: .\trash\templates\home.html:105
+msgid "papieru lakierowanego i powleczonego folią"
+msgstr "paper lacquered and film-coated"
+
+#: .\trash\templates\home.html:106
+msgid "papieru zatłuszczonego lub mocno zabrudzonego"
+msgstr "paper that is greasy or heavily soiled"
+
+#: .\trash\templates\home.html:107
+msgid "kartonów po mleku i napojach"
+msgstr "milk and beverage cartons"
+
+#: .\trash\templates\home.html:108
+msgid ""
+"papierowych worków po nawozach, cemencie i innych materiałach budowlanych"
+msgstr "paper bags for fertilizer, cement and other building materials"
+
+#: .\trash\templates\home.html:109
+msgid "tapet"
+msgstr "wallpapers"
+
+#: .\trash\templates\home.html:110
+msgid "pieluch jednorazowych i innych materiałów higienicznych"
+msgstr "disposable diapers and other hygienic materials"
+
+#: .\trash\templates\home.html:111
+msgid "zatłuszczonych jednorazowych opakowań z papieru i naczyń jednorazowych"
+msgstr "greasy disposable paper packaging and disposable dishes"
+
+#: .\trash\templates\home.html:112
+msgid "ubrań"
+msgstr "clothes"
+
+#: .\trash\templates\home.html:125
+msgid ""
+"butelki i słoiki po napojach i żywności (w tym butelki po napojach "
+"alkoholowych i olejach roślinnych)"
+msgstr ""
+"butelki i słoiki po napojach i żywności (w tym butelki po napojach "
+"alkoholowych i olejach roślinnych)"
+
+#: .\trash\templates\home.html:126
+msgid ""
+"szklane opakowania po kosmetykach (jeżeli nie są wykonane z trwale "
+"połączonych kilku surowców)"
+msgstr "glass packaging for cosmetics (if not made of several raw materials)"
+
+#: .\trash\templates\home.html:130
+msgid "ceramiki, doniczek, porcelany, fajansu, kryształów"
+msgstr "pottery, pottery, porcelain, faience, crystals"
+
+#: .\trash\templates\home.html:131
+msgid "szkła okularowego"
+msgstr "szkła okularowego"
+
+#: .\trash\templates\home.html:132
+msgid "szkła żaroodpornego"
+msgstr "heat-resistant glasses"
+
+#: .\trash\templates\home.html:133
+msgid "zniczy z zawartością wosku"
+msgstr "candles containing wax"
+
+#: .\trash\templates\home.html:134
+msgid "żarówek i świetlówek"
+msgstr "bulbs and fluorescent lamps"
+
+#: .\trash\templates\home.html:135
+msgid "reflektorów"
+msgstr "headlamps"
+
+#: .\trash\templates\home.html:136
+msgid "opakowań po lekach, rozpuszczalnikach, olejach silnikowych"
+msgstr "packaging of medicines, solvents, engine oils"
+
+#: .\trash\templates\home.html:137
+msgid "luster"
+msgstr "mirrors"
+
+#: .\trash\templates\home.html:138
+msgid "szyb okiennych i zbrojonych"
+msgstr "window and reinforced glass"
+
+#: .\trash\templates\home.html:139
+msgid "monitorów i lamp telewizyjnych"
+msgstr "TV monitors and tubes"
+
+#: .\trash\templates\home.html:140
+msgid "termometrów i strzykawek"
+msgstr "thermometers and syringes"
+
+#: .\trash\templates\home.html:148
+msgid "Odpady biodegradowalne"
+msgstr "Biodegradable waste"
+
+#: .\trash\templates\home.html:153
+msgid "odpadki warzywne i owocowe (w tym obierki itp.)"
+msgstr "vegetable and fruit waste (including peelings, etc.)"
+
+#: .\trash\templates\home.html:154
+msgid "gałęzie drzew i krzewów"
+msgstr "branches of trees and shrubs"
+
+#: .\trash\templates\home.html:155
+msgid "skoszoną trawę, liście, kwiaty"
+msgstr "mowed grass, leaves, flowers"
+
+#: .\trash\templates\home.html:156
+msgid "trociny i korę drzew"
+msgstr "sawdust and tree bark"
+
+#: .\trash\templates\home.html:157
+msgid "niezaimpregnowane drewno"
+msgstr "untreated timber"
+
+#: .\trash\templates\home.html:158
+msgid "resztki jedzenia"
+msgstr "leftovers"
+
+#: .\trash\templates\home.html:162
+msgid "kości zwierząt"
+msgstr "bones"
+
+#: .\trash\templates\home.html:163
+msgid "oleju jadalnego"
+msgstr "edible oil"
+
+#: .\trash\templates\home.html:164
+msgid "odchodów zwierząt"
+msgstr "animal faeces"
+
+#: .\trash\templates\home.html:165
+msgid "popiołu z węgla kamiennego"
+msgstr "coal ash"
+
+#: .\trash\templates\home.html:166
+msgid "leków"
+msgstr "drugs"
+
+#: .\trash\templates\home.html:167
+msgid "drewna impregnowanego"
+msgstr "impregnated timber"
+
+#: .\trash\templates\home.html:168
+msgid "płyt wiórowych i pilśniowych MDF"
+msgstr "MDF"
+
+#: .\trash\templates\home.html:169
+msgid "ziemi i kamieni"
+msgstr "earth and stone"
+
+#: .\trash\templates\home.html:170
+msgid "innych odpadów komunalnych (w tym niebezpiecznych)"
+msgstr "other municipal (including hazardous) waste"
+
+#: .\trash\templates\home.html:180
+msgid ""
+"Do pojemnika z odpadami zmieszanymi należy wrzucać wszystko to, czego nie "
+"można odzyskać w procesie recyklingu, z wyłączeniem odpadów niebezpiecznych."
+msgstr ""
+"Anything that cannot be recovered in the recycling process, except hazardous "
+"waste, should be placed in a container with mixed waste."
+
+#: .\trash\templates\home.html:187
+msgid "Ikony wykonane przez"
+msgstr "Icons made by"
+
+#: .\trash\templates\home.html:187
+msgid "z"
+msgstr "from"
