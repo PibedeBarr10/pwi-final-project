@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-25 01:01+0200\n"
+"POT-Creation-Date: 2020-05-25 23:43+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,11 +18,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: .\trash\templates\home.html:19 .\trash\templates\home.html:38
+#: .\trash\templates\home.html:19 .\trash\templates\home.html:56
 msgid "Segregacja śmieci"
 msgstr "Waste segregation"
 
-#: .\trash\templates\home.html:20 .\trash\templates\home.html:44
+#: .\trash\templates\home.html:20 .\trash\templates\home.html:62
 msgid "Informacje"
 msgstr "Information"
 
@@ -30,27 +30,31 @@ msgstr "Information"
 msgid "Metale i tworzywa"
 msgstr "Metals and plastics"
 
-#: .\trash\templates\home.html:22 .\trash\templates\home.html:89
+#: .\trash\templates\home.html:22 .\trash\templates\home.html:107
 msgid "Papier"
 msgstr "Paper"
 
-#: .\trash\templates\home.html:23 .\trash\templates\home.html:120
+#: .\trash\templates\home.html:23 .\trash\templates\home.html:138
 msgid "Szkło"
 msgstr "Glass"
 
 #: .\trash\templates\home.html:24
 msgid "Odpady BIO"
-msgstr "Biodegradable waste"
+msgstr "BIO waste"
 
-#: .\trash\templates\home.html:25 .\trash\templates\home.html:178
+#: .\trash\templates\home.html:25 .\trash\templates\home.html:196
 msgid "Odpady zmieszane"
 msgstr "Confused waste"
 
-#: .\trash\templates\home.html:39
+#: .\trash\templates\home.html:32
+msgid "Language"
+msgstr ""
+
+#: .\trash\templates\home.html:57
 msgid "Ratuj Ziemię"
 msgstr "Save the world"
 
-#: .\trash\templates\home.html:45
+#: .\trash\templates\home.html:63
 msgid ""
 "Główna zasada Jednolitego Systemu Segregacji Odpadów (JSSO) jest jedna – "
 "należy oddzielać surowce od odpadów, które nie nadają się do powtórnego "
@@ -59,7 +63,7 @@ msgstr ""
 "The main principle of the Uniform System of Waste Segregation (JSSO) is one "
 "- separate raw materials from waste that is not recyclable."
 
-#: .\trash\templates\home.html:47
+#: .\trash\templates\home.html:65
 msgid ""
 "Zbieranie osobno papieru, szkła, tworzyw sztucznych wraz z metalem, a także "
 "oddzielanie odpadów biodegradowalnych pozwala uzyskać najbardziej "
@@ -69,7 +73,7 @@ msgstr ""
 "separation of biodegradable waste allows to obtain the most valuable raw "
 "materials for recycling."
 
-#: .\trash\templates\home.html:49
+#: .\trash\templates\home.html:67
 msgid ""
 "Przy segregacji bezwzględnie trzeba pamiętać o odpadach niebezpiecznych, do "
 "których zaliczają się zużyte baterie i akumulatory, przeterminowane "
@@ -87,32 +91,32 @@ msgstr ""
 "disposed of in specially designated points in shops and pharmacies, as well "
 "as in a selective municipal waste collection point."
 
-#: .\trash\templates\home.html:55
+#: .\trash\templates\home.html:73
 msgid "Metale i tworzywa sztuczne"
 msgstr "Metals and plastics"
 
-#: .\trash\templates\home.html:59 .\trash\templates\home.html:93
-#: .\trash\templates\home.html:124 .\trash\templates\home.html:152
+#: .\trash\templates\home.html:77 .\trash\templates\home.html:111
+#: .\trash\templates\home.html:142 .\trash\templates\home.html:170
 msgid "Należy wyrzucać:"
 msgstr "You should throw it away:"
 
-#: .\trash\templates\home.html:60
+#: .\trash\templates\home.html:78
 msgid "odkręcone i zgniecione plastikowe butelki po napojach"
 msgstr "unscrewed and crushed plastic beverage bottles"
 
-#: .\trash\templates\home.html:61
+#: .\trash\templates\home.html:79
 msgid "nakrętki, o ile nie zbieramy ich osobno w ramach akcji dobroczynnych"
 msgstr "nuts, unless we collect them separately as charities"
 
-#: .\trash\templates\home.html:62
+#: .\trash\templates\home.html:80
 msgid "plastikowe opakowania po produktach spożywczych"
 msgstr "plastic food packaging"
 
-#: .\trash\templates\home.html:63
+#: .\trash\templates\home.html:81
 msgid "opakowania wielomateriałowe (np. kartony po mleku i sokach)"
 msgstr "multi-material packaging (e.g. milk and juice cartons)"
 
-#: .\trash\templates\home.html:64
+#: .\trash\templates\home.html:82
 msgid ""
 "opakowania po środkach czystości (np. proszkach do prania), kosmetykach (np. "
 "szamponach, paście do zębów) itp."
@@ -120,253 +124,255 @@ msgstr ""
 "packaging for cleaning products (e.g. washing powder), cosmetics (e.g. "
 "shampoos, toothpaste, etc."
 
-#: .\trash\templates\home.html:65
+#: .\trash\templates\home.html:83
 msgid "plastikowe torby, worki, reklamówki, inne folie"
 msgstr "plastic bags, sacks, commercials, other foils"
 
-#: .\trash\templates\home.html:66
+#: .\trash\templates\home.html:84
 msgid "aluminiowe puszki po napojach i sokach"
 msgstr "aluminum beverage and juice cans"
 
-#: .\trash\templates\home.html:67
+#: .\trash\templates\home.html:85
 msgid "puszki po konserwach"
 msgstr "tin cans"
 
-#: .\trash\templates\home.html:68
+#: .\trash\templates\home.html:86
 msgid "folię aluminiową"
 msgstr "aluminium foil"
 
-#: .\trash\templates\home.html:69
+#: .\trash\templates\home.html:87
 msgid "metale kolorowe"
 msgstr "colored metals"
 
-#: .\trash\templates\home.html:70
+#: .\trash\templates\home.html:88
 msgid "kapsle, zakrętki od słoików"
 msgstr "caps from jars"
 
-#: .\trash\templates\home.html:73 .\trash\templates\home.html:103
-#: .\trash\templates\home.html:129 .\trash\templates\home.html:161
+#: .\trash\templates\home.html:91 .\trash\templates\home.html:121
+#: .\trash\templates\home.html:147 .\trash\templates\home.html:179
 msgid "Nie należy wyrzucać:"
 msgstr "Do not throw it away:"
 
-#: .\trash\templates\home.html:74
+#: .\trash\templates\home.html:92
 msgid "butelek i pojemników z zawartością"
 msgstr "bottles and containers with contents"
 
-#: .\trash\templates\home.html:75
+#: .\trash\templates\home.html:93
 msgid "plastikowych zabawek"
 msgstr "plastic toys"
 
-#: .\trash\templates\home.html:76
+#: .\trash\templates\home.html:94
 msgid "opakowań po lekach i zużytych artykułów medycznych"
 msgstr "packaging of medicines and used medical supplies"
 
-#: .\trash\templates\home.html:77
+#: .\trash\templates\home.html:95
 msgid "opakowań po olejach silnikowych"
 msgstr "motor oil packages"
 
-#: .\trash\templates\home.html:78
+#: .\trash\templates\home.html:96
 msgid "części samochodowych"
 msgstr "car parts"
 
-#: .\trash\templates\home.html:79
+#: .\trash\templates\home.html:97
 msgid "zużytych baterii i akumulatorów"
 msgstr "waste batteries and accumulators"
 
-#: .\trash\templates\home.html:80
+#: .\trash\templates\home.html:98
 msgid "puszek i pojemników po farbach i lakierach"
 msgstr "paint cans and containers"
 
-#: .\trash\templates\home.html:81
+#: .\trash\templates\home.html:99
 msgid "zużytego sprzętu elektronicznego i AGD"
 msgstr "waste electronic and household appliances"
 
-#: .\trash\templates\home.html:94
+#: .\trash\templates\home.html:112
 msgid "opakowania z papieru, karton, tekturę (także falistą)"
 msgstr "paper, cardboard, cardboard (including corrugated cardboard)"
 
-#: .\trash\templates\home.html:95
+#: .\trash\templates\home.html:113
 msgid "katalogi, ulotki, prospekty"
 msgstr "catalogues, leaflets, brochures"
 
-#: .\trash\templates\home.html:96
+#: .\trash\templates\home.html:114
 msgid "gazety i czasopisma"
 msgstr "newspapers and magazines"
 
-#: .\trash\templates\home.html:97
+#: .\trash\templates\home.html:115
 msgid "papier szkolny i biurowy, zadrukowane kartki"
 msgstr "school and office paper, printed sheets"
 
-#: .\trash\templates\home.html:98
+#: .\trash\templates\home.html:116
 msgid "zeszyty i książki"
 msgstr "notebooks and books"
 
-#: .\trash\templates\home.html:99
+#: .\trash\templates\home.html:117
 msgid "papier pakowy"
 msgstr "wrapping paper"
 
-#: .\trash\templates\home.html:100
+#: .\trash\templates\home.html:118
 msgid "torby i worki papierowe"
 msgstr "handbags and sacks"
 
-#: .\trash\templates\home.html:104
+#: .\trash\templates\home.html:122
 msgid "ręczników papierowych i zużytych chusteczek higienicznych"
 msgstr "paper towels and used handkerchiefs"
 
-#: .\trash\templates\home.html:105
+#: .\trash\templates\home.html:123
 msgid "papieru lakierowanego i powleczonego folią"
 msgstr "paper lacquered and film-coated"
 
-#: .\trash\templates\home.html:106
+#: .\trash\templates\home.html:124
 msgid "papieru zatłuszczonego lub mocno zabrudzonego"
 msgstr "paper that is greasy or heavily soiled"
 
-#: .\trash\templates\home.html:107
+#: .\trash\templates\home.html:125
 msgid "kartonów po mleku i napojach"
 msgstr "milk and beverage cartons"
 
-#: .\trash\templates\home.html:108
+#: .\trash\templates\home.html:126
 msgid ""
 "papierowych worków po nawozach, cemencie i innych materiałach budowlanych"
 msgstr "paper bags for fertilizer, cement and other building materials"
 
-#: .\trash\templates\home.html:109
+#: .\trash\templates\home.html:127
 msgid "tapet"
 msgstr "wallpapers"
 
-#: .\trash\templates\home.html:110
+#: .\trash\templates\home.html:128
 msgid "pieluch jednorazowych i innych materiałów higienicznych"
 msgstr "disposable diapers and other hygienic materials"
 
-#: .\trash\templates\home.html:111
+#: .\trash\templates\home.html:129
 msgid "zatłuszczonych jednorazowych opakowań z papieru i naczyń jednorazowych"
 msgstr "greasy disposable paper packaging and disposable dishes"
 
-#: .\trash\templates\home.html:112
+#: .\trash\templates\home.html:130
 msgid "ubrań"
 msgstr "clothes"
 
-#: .\trash\templates\home.html:125
+#: .\trash\templates\home.html:143
 msgid ""
 "butelki i słoiki po napojach i żywności (w tym butelki po napojach "
 "alkoholowych i olejach roślinnych)"
-msgstr "beverage and food bottles and jars (including bottles of alcoholic beverages and vegetable oils)"
+msgstr ""
+"beverage and food bottles and jars (including bottles of alcoholic beverages "
+"and vegetable oils)"
 
-#: .\trash\templates\home.html:126
+#: .\trash\templates\home.html:144
 msgid ""
 "szklane opakowania po kosmetykach (jeżeli nie są wykonane z trwale "
 "połączonych kilku surowców)"
 msgstr "glass packaging for cosmetics (if not made of several raw materials)"
 
-#: .\trash\templates\home.html:130
+#: .\trash\templates\home.html:148
 msgid "ceramiki, doniczek, porcelany, fajansu, kryształów"
 msgstr "pottery, pottery, porcelain, faience, crystals"
 
-#: .\trash\templates\home.html:131
+#: .\trash\templates\home.html:149
 msgid "szkła okularowego"
 msgstr "spectacle glasses"
 
-#: .\trash\templates\home.html:132
+#: .\trash\templates\home.html:150
 msgid "szkła żaroodpornego"
 msgstr "heat-resistant glasses"
 
-#: .\trash\templates\home.html:133
+#: .\trash\templates\home.html:151
 msgid "zniczy z zawartością wosku"
 msgstr "candles containing wax"
 
-#: .\trash\templates\home.html:134
+#: .\trash\templates\home.html:152
 msgid "żarówek i świetlówek"
 msgstr "bulbs and fluorescent lamps"
 
-#: .\trash\templates\home.html:135
+#: .\trash\templates\home.html:153
 msgid "reflektorów"
 msgstr "headlamps"
 
-#: .\trash\templates\home.html:136
+#: .\trash\templates\home.html:154
 msgid "opakowań po lekach, rozpuszczalnikach, olejach silnikowych"
 msgstr "packaging of medicines, solvents, engine oils"
 
-#: .\trash\templates\home.html:137
+#: .\trash\templates\home.html:155
 msgid "luster"
 msgstr "mirrors"
 
-#: .\trash\templates\home.html:138
+#: .\trash\templates\home.html:156
 msgid "szyb okiennych i zbrojonych"
 msgstr "window and reinforced glass"
 
-#: .\trash\templates\home.html:139
+#: .\trash\templates\home.html:157
 msgid "monitorów i lamp telewizyjnych"
 msgstr "TV monitors and tubes"
 
-#: .\trash\templates\home.html:140
+#: .\trash\templates\home.html:158
 msgid "termometrów i strzykawek"
 msgstr "thermometers and syringes"
 
-#: .\trash\templates\home.html:148
+#: .\trash\templates\home.html:166
 msgid "Odpady biodegradowalne"
 msgstr "Biodegradable waste"
 
-#: .\trash\templates\home.html:153
+#: .\trash\templates\home.html:171
 msgid "odpadki warzywne i owocowe (w tym obierki itp.)"
 msgstr "vegetable and fruit waste (including peelings, etc.)"
 
-#: .\trash\templates\home.html:154
+#: .\trash\templates\home.html:172
 msgid "gałęzie drzew i krzewów"
 msgstr "branches of trees and shrubs"
 
-#: .\trash\templates\home.html:155
+#: .\trash\templates\home.html:173
 msgid "skoszoną trawę, liście, kwiaty"
 msgstr "mowed grass, leaves, flowers"
 
-#: .\trash\templates\home.html:156
+#: .\trash\templates\home.html:174
 msgid "trociny i korę drzew"
 msgstr "sawdust and tree bark"
 
-#: .\trash\templates\home.html:157
+#: .\trash\templates\home.html:175
 msgid "niezaimpregnowane drewno"
 msgstr "untreated timber"
 
-#: .\trash\templates\home.html:158
+#: .\trash\templates\home.html:176
 msgid "resztki jedzenia"
 msgstr "leftovers"
 
-#: .\trash\templates\home.html:162
+#: .\trash\templates\home.html:180
 msgid "kości zwierząt"
 msgstr "bones"
 
-#: .\trash\templates\home.html:163
+#: .\trash\templates\home.html:181
 msgid "oleju jadalnego"
 msgstr "edible oil"
 
-#: .\trash\templates\home.html:164
+#: .\trash\templates\home.html:182
 msgid "odchodów zwierząt"
 msgstr "animal faeces"
 
-#: .\trash\templates\home.html:165
+#: .\trash\templates\home.html:183
 msgid "popiołu z węgla kamiennego"
 msgstr "coal ash"
 
-#: .\trash\templates\home.html:166
+#: .\trash\templates\home.html:184
 msgid "leków"
 msgstr "drugs"
 
-#: .\trash\templates\home.html:167
+#: .\trash\templates\home.html:185
 msgid "drewna impregnowanego"
 msgstr "impregnated timber"
 
-#: .\trash\templates\home.html:168
+#: .\trash\templates\home.html:186
 msgid "płyt wiórowych i pilśniowych MDF"
 msgstr "MDF"
 
-#: .\trash\templates\home.html:169
+#: .\trash\templates\home.html:187
 msgid "ziemi i kamieni"
 msgstr "earth and stone"
 
-#: .\trash\templates\home.html:170
+#: .\trash\templates\home.html:188
 msgid "innych odpadów komunalnych (w tym niebezpiecznych)"
 msgstr "other municipal (including hazardous) waste"
 
-#: .\trash\templates\home.html:180
+#: .\trash\templates\home.html:198
 msgid ""
 "Do pojemnika z odpadami zmieszanymi należy wrzucać wszystko to, czego nie "
 "można odzyskać w procesie recyklingu, z wyłączeniem odpadów niebezpiecznych."
@@ -374,10 +380,14 @@ msgstr ""
 "Anything that cannot be recovered in the recycling process, except hazardous "
 "waste, should be placed in a container with mixed waste."
 
-#: .\trash\templates\home.html:187
+#: .\trash\templates\home.html:218
+msgid "Zmień"
+msgstr "Change"
+
+#: .\trash\templates\home.html:221
 msgid "Ikony wykonane przez"
 msgstr "Icons made by"
 
-#: .\trash\templates\home.html:187
+#: .\trash\templates\home.html:221
 msgid "z"
 msgstr "from"

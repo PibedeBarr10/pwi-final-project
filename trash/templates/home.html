@@ -23,6 +23,24 @@
                 <a href="#glass">{% trans "Szkło" %}</a>
                 <a href="#bio">{% trans "Odpady BIO" %}</a>
                 <a href="#mix">{% trans "Odpady zmieszane" %}</a>
+                
+                <!--
+                {% get_current_language as LANGUAGE_CODE %}
+                {% get_available_languages as LANGUAGES %}
+                {% get_language_info_list for LANGUAGES as languages %}
+                <div class="languages">
+                    <p>{% trans "Language" %}:</p>
+                    <ul class="languages">
+                        {% for language in languages %}
+                            <li>
+                                <a href="/{{ language.code }}/" {% if language.code == LANGUAGE_CODE %} class="selected"{% endif %}>
+                                    {{ language.name_local }}
+                                </a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                -->
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                     <img src="/static/icon.png" alt="Menu">
                 </a>
@@ -184,6 +202,22 @@
 
             <footer>
                 <p>Piotr Wojtasiewicz 2020</p>
+                <p>
+                    <form action="{% url 'set_language' %}" method="post">
+                        {% csrf_token %}
+                        <input name="next" type="hidden" value="{{ redirect_to }}" />
+                        <select name="language">
+                            {% get_current_language as LANGUAGE_CODE %}
+                            {% get_available_languages as LANGUAGES %}
+                            {% for lang in LANGUAGES %}
+                                <option value="{{ lang.0 }}" {% if lang.0 == LANGUAGE_CODE %} selected="selected"{% endif %}>
+                                    {{ lang.1 }} ({{ lang.0 }})
+                                </option>
+                            {% endfor %}
+                        </select>
+                        <input type="submit" value="{% trans 'Zmień' %}" />
+                    </form>
+                </p>
                 {% trans "Ikony wykonane przez" %} <a href="https://www.flaticon.com/authors/ultimatearm" title="ultimatearm">ultimatearm</a> {% trans "z" %} <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
             </footer>
         </main>
