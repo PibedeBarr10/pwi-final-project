@@ -1,3 +1,4 @@
+compress==0.0.2
 DateTime==4.3
 Django==3.0.6
 django-countries==6.1.2
