@@ -231,65 +231,6 @@
                 {% trans "Ikony wykonane przez" %} <a href="https://www.flaticon.com/authors/ultimatearm" title="ultimatearm">ultimatearm</a> {% trans "z" %} <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
             </footer>
         </main>
-
-        <script>
-            function myFunction() {
-              var x = document.getElementById("myTopnav");
-              if (x.className === "topnav") {
-                x.className += " responsive";
-              } else {
-                x.className = "topnav";
-              }
-            }
-        </script>
-        <script>
-            function accept_cookies() {
-                document.cookie = "cookies_accept=true; expires=Thu, 2 Aug 2022 20:47:11 UTC;";
-                document.getElementById("p2").style.display = "none";
-            }
-
-            function getCookie(cname) {
-                var name = cname + "=";
-                var decodedCookie = decodeURIComponent(document.cookie);
-                var ca = decodedCookie.split(';');
-                for(var i = 0; i <ca.length; i++) {
-                    var c = ca[i];
-                    while (c.charAt(0) == ' ') {
-                        c = c.substring(1);
-                    }
-                    if (c.indexOf(name) == 0) {
-                        return c.substring(name.length, c.length);
-                    }
-                }
-                return "";
-            }
-            
-            /*
-            //document.cookie = "django_language=en";
-            function pl() {
-                document.cookie = "django_language=pl";
-            }
-
-            function en() {
-                document.cookie = "django_language=en";
-            }
-
-            window.onload = function(){
-                if (getCookie("cookies_accept") == "true") {
-                    //alert(getCookie("cookies_accept"));
-                    document.getElementById("p2").style.display = "none";
-                }
-            }*/
-
-            if (getCookie("cookies_accept") == "true") {
-                document.getElementById("p2").style.display = "none";
-            }
-
-            window.onload = function(){
-                if (!getCookie("django_language")) {
-                    document.cookie = "django_language=pl; expires=Thu, 2 Aug 2022 20:47:11 UTC;";
-                }
-            }
-        </script>
+        <script src="{% static 'script.js' %}"></script>
     </body>
 </html>
