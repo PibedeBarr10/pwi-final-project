@@ -29,7 +29,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['wastesegregation.herokuapp.com']
+ALLOWED_HOSTS = ['wastesegregation.herokuapp.com','.wastesegregation.herokuapp.com']
+SESSION_COOKIE_DOMAIN = ".wastesegregation.herokuapp.com"
 
 
 # Application definition
