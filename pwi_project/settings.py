@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = True
 
 ALLOWED_HOSTS = ['wastesegregation.herokuapp.com']
-SESSION_COOKIE_DOMAIN = "static.wastesegregation.herokuapp.com"
+SESSION_COOKIE_DOMAIN = "wastesegregation.herokuapp.com"
 
 
 # Application definition
