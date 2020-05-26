@@ -227,22 +227,20 @@
 
             <footer>
                 <p>Piotr Wojtasiewicz 2020</p>
-                <p>
-                    <form action="{% url 'set_language' %}" method="post">
-                        {% csrf_token %}
-                        <input name="next" type="hidden" value="{{ redirect_to }}" />
-                        <select name="language">
-                            {% get_current_language as LANGUAGE_CODE %}
-                            {% get_available_languages as LANGUAGES %}
-                            {% for lang in LANGUAGES %}
-                                <option value="{{ lang.0 }}" {% if lang.0 == LANGUAGE_CODE %} selected="selected"{% endif %}>
-                                    {{ lang.1 }} ({{ lang.0 }})
-                                </option>
-                            {% endfor %}
-                        </select>
-                        <input type="submit" value="{% trans 'Zmień' %}" />
-                    </form>
-                </p>
+                <form action="{% url 'set_language' %}" method="post">
+                    {% csrf_token %}
+                    <input name="next" type="hidden" value="{{ redirect_to }}" />
+                    <select name="language">
+                        {% get_current_language as LANGUAGE_CODE %}
+                        {% get_available_languages as LANGUAGES %}
+                        {% for lang in LANGUAGES %}
+                            <option value="{{ lang.0 }}" {% if lang.0 == LANGUAGE_CODE %} selected="selected"{% endif %}>
+                                {{ lang.1 }} ({{ lang.0 }})
+                            </option>
+                        {% endfor %}
+                    </select>
+                    <input type="submit" value="{% trans 'Zmień' %}" />
+                </form>
                 {% trans "Ikony wykonane przez" %} <a href="https://www.flaticon.com/authors/ultimatearm" title="ultimatearm">ultimatearm</a> {% trans "z" %} <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
             </footer>
         </main>

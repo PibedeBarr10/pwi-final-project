@@ -12,6 +12,8 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 
 import os
 from django.utils.translation import ugettext_lazy as _
+from django.conf import settings
+from compress.filter_base import FilterBase
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -134,3 +136,28 @@ STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 
+
+"""Django compress filter to replace image src URLs in a CSS file with a static 
+domain. See: http://developer.yahoo.com/performance/rules.html#cookie_free 
+
+Example configuration in settings:
+
+COMPRESS_CSS_FILTERS = ('compress.filters.csstidy.CSSTidyFilter', 
+    'search.helpers.static_domain_css.StaticDomainCSSFilter')
+    
+COMPRESS_STATICDOMAIN_SETTINGS = [
+    ("/static/images/", "http://static.powerfill.com/static/images/"),
+    ("../images/", "http://static.powerfill.com/static/images/"),
+    ] 
+
+"""
+
+
+COMPRESS_STATICDOMAIN_SETTINGS = getattr(
+    settings, 'COMPRESS_STATICDOMAIN_SETTINGS', {})
+
+class StaticDomainCSSFilter(FilterBase):
+    def filter_css(self, css):
+        for old, new in COMPRESS_STATICDOMAIN_SETTINGS:      
+            css = css.replace(old, new)
+        return css
