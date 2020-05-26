@@ -21,11 +21,8 @@ def home(request):
 
 
     response = render(request, 'home.html') # store the response in response variable
-    if not request.COOKIES.get('cookies_accept'):        
+    if not request.COOKIES.get('cookies_accept'):
         response.set_cookie('cookies_accept', 'false', 3600 * 24 * 365 * 2)
-    
-    if not request.COOKIES.get('django_language'):
-        response.set_cookie('django_language', 'pl', 3600 * 24 * 365 * 2)
 
     if not request.COOKIES.get('visits'):        
         response.set_cookie('visits', '1', 3600 * 24 * 365 * 2)
