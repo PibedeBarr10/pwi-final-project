@@ -23,7 +23,10 @@
                 <a href="#glass">{% trans "Szkło" %}</a>
                 <a href="#bio">{% trans "Odpady BIO" %}</a>
                 <a href="#mix">{% trans "Odpady zmieszane" %}</a>
-                
+                <!--
+                <a href="javascript:void(0);" onclick="pl()">PL</a>
+                <a href="javascript:void(0);" onclick="en()">EN</a>
+                -->
                 <!--
                 {% get_current_language as LANGUAGE_CODE %}
                 {% get_available_languages as LANGUAGES %}
@@ -198,6 +201,13 @@
                 <p style="padding: 2em; text-align: center;">{% trans "Do pojemnika z odpadami zmieszanymi należy wrzucać wszystko to, czego nie można odzyskać w procesie recyklingu, z wyłączeniem odpadów niebezpiecznych." %}</p>
             </section>
 
+            <div class="cook" id="p2">
+                <p style="margin: 0;padding-left: 1em;width: 95%;">{% trans "Ta strona wykorzystuje pliki cookies. Za ich pomocą zbierane są informacje, które mogą stanowić dane osobowe. Wykorzystujemy je m.in. w celach statystycznych i funkcjonalnych. Korzystając z serwisu bez zmiany konfiguracji przeglądarki, wyrażasz zgodę na zapisanie plików cookies w pamięci Twojego urządzenia. Możesz samodzielnie zarządzać cookies zmieniając odpowiednio ustawienia w Twojej przeglądarce." %}
+                </p>
+                <a href="javascript:void(0);" onclick="accept_cookies()">
+                    <img src="/static/cross.png" alt="Close">
+                </a>
+            </div>
 
 
             <footer>
@@ -230,6 +240,55 @@
               } else {
                 x.className = "topnav";
               }
+            }
+        </script>
+        <script>
+            function accept_cookies() {
+                document.cookie = "cookies_accept=true; expires=Thu, 2 Aug 2022 20:47:11 UTC;";
+                document.getElementById("p2").style.display = "none";
+            }
+
+            function getCookie(cname) {
+                var name = cname + "=";
+                var decodedCookie = decodeURIComponent(document.cookie);
+                var ca = decodedCookie.split(';');
+                for(var i = 0; i <ca.length; i++) {
+                    var c = ca[i];
+                    while (c.charAt(0) == ' ') {
+                        c = c.substring(1);
+                    }
+                    if (c.indexOf(name) == 0) {
+                        return c.substring(name.length, c.length);
+                    }
+                }
+                return "";
+            }
+            
+            /*
+            //document.cookie = "django_language=en";
+            function pl() {
+                document.cookie = "django_language=pl";
+            }
+
+            function en() {
+                document.cookie = "django_language=en";
+            }
+
+            window.onload = function(){
+                if (getCookie("cookies_accept") == "true") {
+                    //alert(getCookie("cookies_accept"));
+                    document.getElementById("p2").style.display = "none";
+                }
+            }*/
+
+            if (getCookie("cookies_accept") == "true") {
+                document.getElementById("p2").style.display = "none";
+            }
+
+            window.onload = function(){
+                if (!getCookie("django_language")) {
+                    document.cookie = "django_language=pl; expires=Thu, 2 Aug 2022 20:47:11 UTC;";
+                }
             }
         </script>
     </body>
