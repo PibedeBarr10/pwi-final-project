@@ -12,8 +12,8 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 
 import os
 from django.utils.translation import ugettext_lazy as _
-from django.conf import settings
-from compress.filter_base import FilterBase
+#from django.conf import settings
+#from compress.filter_base import FilterBase
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -150,7 +150,7 @@ COMPRESS_STATICDOMAIN_SETTINGS = [
     ("../images/", "http://static.powerfill.com/static/images/"),
     ] 
 
-"""
+
 
 
 COMPRESS_STATICDOMAIN_SETTINGS = getattr(
@@ -161,3 +161,4 @@ class StaticDomainCSSFilter(FilterBase):
         for old, new in COMPRESS_STATICDOMAIN_SETTINGS:      
             css = css.replace(old, new)
         return css
+"""
