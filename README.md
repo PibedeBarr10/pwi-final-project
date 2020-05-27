@@ -1,7 +1,7 @@
 # Projekt końcowy z przedmiotu Programowanie w Internecie
 
 ## Link do strony:
-http://wastesegregation.herokuapp.com
+https://wastesegregation.herokuapp.com
 
 Projekt został stworzony z wykorzystaniem Django
 
